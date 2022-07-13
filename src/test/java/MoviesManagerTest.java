@@ -99,22 +99,5 @@ public class MoviesManagerTest {
         assertArrayEquals(expected, actual);
     }
 
-    @Test
-    public void test4() {
-        MoviesManager manager = new MoviesManager();
-        String[] actual = ;
-        String[] expected = {
-                "F1",
-                "F2",
-                "F3",
-                "F4",
-                "F5",
-                "F6",
-                "F7",
-                "F8",
-                "F9",
-                "F10"
-        };
-        assertArrayEquals(expected, actual);
-    }
+
 }

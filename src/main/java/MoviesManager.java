@@ -3,9 +3,9 @@ public class MoviesManager {
     private String[] movies = new String[0];
     private int limit;
 
-    public MoviesManager(int limit) {
-        this.limit = limit;
-    }
+    //public MoviesManager(int limit) {
+    //    this.limit = limit;
+   // }
 
     public MoviesManager() {
         limit = 10;
